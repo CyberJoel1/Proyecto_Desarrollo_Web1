@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-
+        <link rel="icon" type="image/png" href="img/logo.png" />
           <a class="nav-link active" href="leer_producto.php">PRODUCTOS
 
             <span class="visually-hidden">(current)</span>
