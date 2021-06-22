@@ -7,7 +7,9 @@
     }
 ?>
 
-<link rel="stylesheet" href="css/estilos.css">
+<?php include_once "encabezado.php" ?>
+
+<link rel="stylesheet" href="css/estilos1.css">
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12">
