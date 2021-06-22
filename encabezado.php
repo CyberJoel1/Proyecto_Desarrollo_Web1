@@ -18,12 +18,12 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">PRODUCTOS
+          <a class="nav-link active" href="IngresarProducto.php">PRODUCTOS
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CLIENTES</a>
+          <a class="nav-link" href="IngresarCliente.php">CLIENTES</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">VENTAS</a>
