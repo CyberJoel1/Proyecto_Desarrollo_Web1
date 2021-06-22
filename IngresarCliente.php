@@ -7,8 +7,6 @@
     }
 ?>
 
-<?php include_once "encabezado.php" ?>
-
 <link rel="stylesheet" href="css/estilos1.css">
 <div class="container">
 	<div class="row">
