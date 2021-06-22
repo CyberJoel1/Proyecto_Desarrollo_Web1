@@ -7,7 +7,7 @@
     }
 ?>
 
-
+<link rel="stylesheet" href="css/estilos.css">
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12">
