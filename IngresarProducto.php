@@ -6,10 +6,8 @@
         header("location:index.html");
     }
 ?>
-<?php
-include "encabezado.php";
-?>
-<link rel="stylesheet" href="css/estilos.css">
+
+<link rel="stylesheet" href="css/estilos1.css">
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12">
