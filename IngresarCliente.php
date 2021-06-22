@@ -6,7 +6,9 @@
         header("location:index.html");
     }
 ?>
-
+<?php
+include "encabezado.php";
+?>
 <link rel="stylesheet" href="css/estilos.css">
 <div class="container">
 	<div class="row">
