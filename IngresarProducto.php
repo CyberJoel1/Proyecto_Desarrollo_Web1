@@ -7,8 +7,6 @@
     }
 ?>
 
-<?php include_once "encabezado.php" ?>
-
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12">
