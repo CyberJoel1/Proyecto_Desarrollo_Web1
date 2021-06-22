@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/c7953bfe81.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand text-white" href="#">MECANICA </a>
  
@@ -18,18 +19,23 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="IngresarProducto.php">PRODUCTOS
+
+          <a class="nav-link active" href="leer_producto.php">PRODUCTOS
+
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="IngresarCliente.php">CLIENTES</a>
+
+
+          <a class="nav-link" href="leer_cliente.php">CLIENTES</a>
+
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">VENTAS</a>
+          <a class="nav-link" href="ListaVenta.php">VENTAS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CERRAR SESION</a>
+          <a class="nav-link" href="index.html">CERRAR SESION</a>
         </li>
         <li class="nav-item dropdown">
           

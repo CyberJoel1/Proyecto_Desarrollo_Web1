@@ -1,41 +1,35 @@
 <?php
-    //Iniciamos la sesion
-    session_start();
-    //Validar si se esta ingresando directamente sin logueo
-    if(!$_SESSION){
-        header("location:index.html");
-    }
+include "encabezado.php";
 ?>
-
-<?php include_once "encabezado.php" ?>
-
 <?php
 	include_once "Bdd.php";
 	$query = "SELECT * FROM clientes";
     $result = $conn -> query($query);
 ?>
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12">
-			<h1>Clientes</h1>
-			<div>
-				<a class="btn btn-success" href="./IngresarCliente.php">Nuevo <i class="fa fa-plus"></i></a>
-			</div>
-			<br>
-			<table class="table table-bordered">
-				<thead>
-					<tr>
-					<th>Nombre</th>
-                    <th>Cedula</th>
-                    <th>Telefono</th>
-					<th>Direccion</th>
-					<th>Editar</th>
-					<th>Eliminar</th>
-					<th>Vender</th>
-					</tr>
-				</thead>
-                <tbody>
-					<?php 
+<div class="container mt-5">
+<h2>Lista Clientes</h2>
+<table class="table table-hover table-bordered mt-2">
+<thead class="thead-dark">
+  <tr>
+    <th scope="col">Nombre</th>
+    <th scope="col">Cedula</th>
+    <th scope="col">Telefono</th>
+    <th scope="col">Direccion</th>
+    <th scope="col">Editar</th>
+    <th scope="col">Eliminar</th>
+    <th scope="col">Vender</th>
+  </tr>
+</thead>
+<tbody>
+  <div >
+	<a class="btn btn-success" >Nuevo <i class="fas fa-highlighter"></i></a>
+
+
+	<a class="nav-link" href="nuevo_cliente.php"> Nuevo Cliente</a>
+
+
+  </div>
+  <?php 
 						if($result->num_rows > 0){
 							while($row = $result -> fetch_assoc()){
 								echo '<tr>';
@@ -53,9 +47,6 @@
 							echo '<p><em> No existen datos registrados </em></p>';
 						}
 					?>
-            	</tbody>
-			</table>
-
-		</div>
-	</div>
+</tbody>
+</table>
 </div>

@@ -16,7 +16,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
             $stmt -> bind_param('sssss', $_POST['nombre'], $_POST['apellido'],
             $_POST['cedula'], $_POST['telefono'], $_POST['direccion']);
             if($stmt -> execute()){
-                header("location: listar_cliente.php");
+                header("location: ListaCliente.php");
                 exit();
             }else{
                 echo "Error! por favor intente mas tarde.";
