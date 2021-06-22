@@ -7,7 +7,7 @@ include "encabezado.php";
     $result = $conn -> query($query);
 ?>
 <div class="container mt-5">
-<h2>Lista Clientes</h2>
+<h2>Lista Productos</h2>
 <table class="table table-hover table-bordered mt-2">
 <thead class="thead-dark">
   <tr>
