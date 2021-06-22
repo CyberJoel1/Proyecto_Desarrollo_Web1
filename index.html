@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d4c14e273.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles-admi.css">    
+    <title>VENTAS ESPE</title>
+</head>
+<body>
+     <!----FORMULARIO LOGIN--->
+ <br><br>
+ <form class="formulario" action="accesoUsuarios.php" method="POST">
+    <h1>Login</h1>
+    <div class="contenedor">
+
+        <div class="input-contenedor">
+            <i class="fas fa-user-tie icon"></i>
+            <input type="text" placeholder="Usuario" required id="usuario" name="usuario">
+        </div>
+        
+        <div class="input-contenedor">
+            <i class="fas fa-key icon"></i>
+            <input type="password" placeholder="Contraseña"  required id="contrasenia" name="contrasenia">
+        </div>
+        <tr>
+   
+        <td colspan="2" style="text-align: center;"><input type="submit" class="button" id="registrar"  name="submit" value="Enviar"></td>
+    </tr>
+   
+     </div> 
+    
+</form>
+<div class="registro">
+    <p> ¿No tienes una cuenta? <a class="link" href="registro_usuario.php">Regístrate</a></p>
+</div>
+</body>
+</html>
