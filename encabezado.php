@@ -19,15 +19,15 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">PRODUCTOS
+          <a class="nav-link active" href="leer_producto.php">PRODUCTOS
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CLIENTES</a>
+          <a class="nav-link" href="leer_cliente.php">CLIENTES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">VENTAS</a>
+          <a class="nav-link" href="ListaVenta.php">VENTAS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">CERRAR SESION</a>
