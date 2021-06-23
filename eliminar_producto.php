@@ -2,7 +2,7 @@
 <?php
 
 if(isset($_GET['id']) && !empty(trim($_GET['id']))){
-	include_once "base_de_datos.php";
+	include_once "Bdd.php";
     $query = 'DELETE FROM productos WHERE idproducto=?';
     if($stmt = $conn->prepare($query)){
         $stmt -> bind_param('i', $_GET['id']);

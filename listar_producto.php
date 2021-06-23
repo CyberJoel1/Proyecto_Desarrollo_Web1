@@ -44,7 +44,7 @@
 								echo '<td>' . $row['precioCompra'] . '</td>';
 								echo '<td>' . $row['precioVenta'] . '</td>';
 								echo '<td>' . $row['existencia'] . '</td>';
-								echo '<td><a class="btn btn-warning" href="editar_producto.php?id=' . $row['idproducto'] .'"><i class="fa fa-edit"></i></a></td>';
+								echo '<td><a class="btn btn-warning" href="actualizarProducto.php?id=' . $row['idproducto'] .'"><i class="fa fa-edit"></i></a></td>';
 								echo '<td><a class="btn btn-danger" href="eliminar_producto.php?id=' . $row['idproducto'] .'"><i class="fa fa-trash"></i></a></td>';
 								echo '</tr>';
 							}

@@ -34,7 +34,7 @@ if(isset($_GET['id']) && !empty(trim($_GET['id']))){
         $stmt -> close();
     }
 }else{
-    header("location: listar_cliente.php");
+    header("location: ListaCliente.php");
     exit();
 }
 
@@ -47,7 +47,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
             $stmt -> bind_param('sssssi', $_POST['nombre'], $_POST['apellido'],
             $_POST['cedula'], $_POST['telefono'], $_POST['direccion'], $_GET['id']);
             if($stmt -> execute()){
-                header("location: listar_cliente.php");
+                header("location: ListaCliente.php");
                 exit();
             }else{
                 echo "Error! por favor intente mas tarde.";

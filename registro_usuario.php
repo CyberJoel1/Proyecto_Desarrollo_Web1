@@ -1,6 +1,6 @@
 
 <?php 
-include_once "base_de_datos.php";
+include_once "Bdd.php";
 
 if($_SERVER['REQUEST_METHOD']=='POST'){
     if(isset($_POST['nombreusuario']) && isset($_POST['cedulausuario'])

@@ -39,7 +39,7 @@ if(isset($_GET['id']) && !empty(trim($_GET['id']))){
         }
     }
 }else{
-    header("location: listar_cliente.php");
+    header("location: ListaCliente.php");
     exit();
 }
 
@@ -52,7 +52,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
         if($stmt = $conn->prepare($query2)){
             $stmt -> bind_param('sssss', $_POST['idcliente'], $fecha, $_POST['idproducto'], $_POST['cantidad'], $_POST['total']);
             if($stmt -> execute()){
-                header("location: listar_venta.php");
+                header("location: ListaVenta.php");
                 exit();
             }else{
                 echo "Error! por favor intente mas tarde.";
@@ -66,6 +66,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 ?>
 
 <?php include_once "encabezado.php" ?>
+<link rel="stylesheet" href="css/estilos1.css">
 
 <div class="container">
 	<div class="row">

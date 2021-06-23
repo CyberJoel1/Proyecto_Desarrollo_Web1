@@ -22,10 +22,10 @@ include "encabezado.php";
 </thead>
 <tbody>
   <div >
-	<a class="btn btn-success" >Nuevo <i class="fas fa-highlighter"></i></a>
+	<a class="btn btn-success" href="IngresarCliente.php" >Nuevo <i class="fas fa-highlighter"></i></a>
 
 
-	<a class="nav-link" href="nuevo_cliente.php"> Nuevo Cliente</a>
+	
 
 
   </div>

@@ -24,7 +24,7 @@ include "encabezado.php";
 </thead>
 <tbody>
   <div >
-	<a class="btn btn-success" >Nuevo <i class="fas fa-highlighter"></i></a>
+	<a class="btn btn-success" href="IngresarProducto.php">Nuevo <i class="fas fa-highlighter"></i></a>
   </div>
   <?php 
 						if($result->num_rows > 0){
