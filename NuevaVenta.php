@@ -91,7 +91,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 				<label for="total">Total venta:</label>
 				<input class="form-control" name="total" required type="text" id="total" placeholder="Total">
                 <br><br><input class="btn btn-info" type="submit" value="Guardar">
-                <a class="btn btn-warning" href="./listar_cliente.php">Cancelar</a>
+                <a class="btn btn-warning" href="./ListaVenta.php">Cancelar</a>
 			</form>
 		</div>
 	</div>
